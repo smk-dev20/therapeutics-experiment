@@ -1,0 +1,6 @@
+pandas==2.0.2
+pandasql==0.7.3
+psycopg2==2.9.6
+SQLAlchemy==2.0.15
+fastapi==0.96.0
+uvicorn==0.22.0
