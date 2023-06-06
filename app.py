@@ -97,7 +97,6 @@ def trigger_etl():
 @app.get("/")
 def welcome():
     print("application start successful...")
-    extract()
     return {"message": "Welcome, go to http://127.0.0.1:8000/etl to trigger the ETL process"}, 200
 
 
